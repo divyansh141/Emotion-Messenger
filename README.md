@@ -1,6 +1,32 @@
 # Emotion-Messenger
 
 ![ Firebase Blue](https://github.com/AIBrainAISchool/Emotion-Messenger/blob/main/Firebase%20set%20up/Screenshot%20(290).png)
+![ Firebase Blue](https://aischool.aibrain.com/pluginfile.php/2143/mod_lesson/page_contents/1504/gif.gif)
+
+# Goal 
+Create an mobile messenger app with AI feature to an existing app template
+ You will download and setup an app template
+
+
+# Prerequisites 
+-Android Studio on Window10                                 
+
+-Messenger Template
+
+-Firebase 
+1 Blaze Plan 
+2 Spark:Free
+ 
+-Blaze:Require billing account
+
+** Need to Learn
+
+Download and prepare a template
+
+Backend using Firebase 
+
+Import libraries into another Android Studio project
+
 # Add Firebase to Emotion Messenger Project
 
 # Set up Firebase
@@ -8,7 +34,7 @@
 Sign into Firebase using your Google account.
 If you don't already have a project and just want to try out a Firebase product, you can download one of the quickstart samples.
 
-# Step 1: Create a Firebase project and connect with your app
+## Step 1: Create a Firebase project and connect with your app
 Create a Firebase project 
 
 In the Firebase console, click Add project, then select or enter a Project name.
@@ -21,10 +47,10 @@ In the Firebase console, click Add project, then select or enter a Project name.
 
 Configure Google Analytics=>  Choose or create a Google Analytics account => Default account for firebase => Click Create project (or Add Firebase, if you're using an existing Google Cloud project).
 
-# Step 2: Register your app with Firebase
+## Step 2: Register your app with Firebase
 ![Firebase Blue](https://github.com/AIBrainAISchool/Emotion-Messenger/blob/main/Firebase%20set%20up/Screenshot%20(284).png)
 
-# Register app
+## Register app
 1.In the center of the Firebase console's  click the android icon and launch setup workflow.
 
 2.Android package name in box.
@@ -39,7 +65,7 @@ Configure Google Analytics=>  Choose or create a Google Analytics account => Def
 
 Click on Next
 
-# Add firebase SDK
+## Add firebase SDK
 1.Click on Next
 
 2.Continue to console
@@ -55,14 +81,14 @@ After registering you are on the console page on the left side of the window
 
 2.Click Email/Password => Enable on =>save
 
-# Realtime Database
+## Realtime Database
 1.Click on Build  ->Realtime Database -> Click on Create Database
 
 2.Choose Your location setting is where your Realtime Database data will be stored
 
 3. click on enable  
  
- Storage
+## Storage
 
 1.Click in  Build-> Storage->Get started -> CLick on Done
 Open https://console.cloud.google.com/
@@ -91,8 +117,8 @@ Open https://console.cloud.google.com/
  
 
 # sentiment analysis  model 
- 
-## The final objective of this lab is to have the messenger app  make sentiment predictions on outgoing messages you've already seen a sentiment analysis  model with the twitter airline dataset  this time you will apply a model to the messenger app so it will generate relevant emoji  depending on the sentiment score of some  so first we will look for a sentiment  analysis model preferably  export for natural language models at the moment so we will just grab a pre-trained model   we can use what the search engine has to offer us sentiment analysis and remodel scroll down and find text classification sample from tensorflow and this demo offers a pre-trained model that predicts if a paragraph sentiment is positive or negative it is trained on shoping  data sets  
+
+## To make a mobile messenger  that deliver emotion as form of emoji  to outgoing messages you've already seen a sentiment analysis  model with the twitter airline dataset  this time you will apply a model to the messenger app so it will generate relevant emoji  depending on the sentiment score of some  so first we will look for a sentiment  analysis model preferably  export for natural language models at the moment so we will just grab a pre-trained model   we can use what the search engine has to offer us sentiment analysis and remodel scroll down and find text classification sample from tensorflow and this demo offers a pre-trained model that predicts if a paragraph sentiment is positive or negative it is trained on shoping  data sets  
 
 ![ Firebase Blue](https://github.com/AIBrainAISchool/Emotion-Messenger/blob/main/Firebase%20set%20up/Screenshot%20(287).png)
 see a 
