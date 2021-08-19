@@ -86,9 +86,10 @@ Open https://console.cloud.google.com/
 
 5.Purchase-Set a budget alert- Set your budget (it can be minimum)
  
+
+# sentiment analysis  model 
  
- 
-# The final objective of this lab is to have the messenger app  make sentiment predictions on outgoing messages you've already seen a sentiment analysis  model with the twitter airline dataset  this time you will apply a model to the messenger app so it will generate relevant emoji  depending on the sentiment score of some  so first we will look for a sentiment  analysis model preferably  export for natural language models at the moment so we will just grab a pre-trained model   we can use what the search engine has to offer us sentiment analysis and remodel scroll down and find text classification sample from tensorflow and this demo offers a pre-trained model that predicts if a paragraph sentiment is positive or negative it is trained on shoping  data sets  
+## The final objective of this lab is to have the messenger app  make sentiment predictions on outgoing messages you've already seen a sentiment analysis  model with the twitter airline dataset  this time you will apply a model to the messenger app so it will generate relevant emoji  depending on the sentiment score of some  so first we will look for a sentiment  analysis model preferably  export for natural language models at the moment so we will just grab a pre-trained model   we can use what the search engine has to offer us sentiment analysis and remodel scroll down and find text classification sample from tensorflow and this demo offers a pre-trained model that predicts if a paragraph sentiment is positive or negative it is trained on shoping  data sets  
 
 ![ Firebase Blue](https://github.com/AIBrainAISchool/Emotion-Messenger/blob/main/Firebase%20set%20up/Screenshot%20(287).png)
 see a 
