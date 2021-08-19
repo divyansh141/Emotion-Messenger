@@ -14,7 +14,7 @@ Firebase automatically assigns a unique ID
 Click Continue.
 Configure Google Analytics=>  Choose or create a Google Analytics account => Default account for firebase => Click Create project (or Add Firebase, if you're using an existing Google Cloud project).
 # Step 2: Register your app with Firebase
-![ Firebase Blue](https://github.com/AIBrainAISchool/Emotion-Messenger/blob/main/Firebase%20set%20up/Screenshot%20(284).png)
+![Firebase Blue](https://github.com/AIBrainAISchool/Emotion-Messenger/blob/main/Firebase%20set%20up/Screenshot%20(284).png)
 # Register app
 In the center of the Firebase console's  click the android icon and launch setup workflow.
 Android package name in box.
@@ -32,7 +32,7 @@ Download json file
  
 Authentication needed
 After registering you are on the console page on the left side of the window 
-![ Firebase Blue]https://github.com/AIBrainAISchool/Emotion-Messenger/blob/main/Firebase%20set%20up/Untitled%20design.png)
+![ Firebase Blue](https://github.com/AIBrainAISchool/Emotion-Messenger/blob/main/Firebase%20set%20up/Untitled%20design.png)
 1.Click on Build -> Authentication -> Click on Get started you will be able to see many such options for authentication (email,twitter etc) from which you want to authenticate
 2.Click Email/Password => Enable on =>save
 
@@ -45,7 +45,8 @@ After registering you are on the console page on the left side of the window
 Open https://console.cloud.google.com/
 2.Click on Select project on top ->In Dialog box click on All => Select your project
 3.Click on navigation bar -> Scroll it>In  Database click on Datastore>Click on Switch to Navigate Mode > 4.Click on got it you will move to Firestore                                                                                                                   5.Close the window
-# Upgrade 
+# Upgrade
+[ Firebase Blue](https://github.com/AIBrainAISchool/Emotion-Messenger/blob/main/Firebase%20set%20up/Firebase.png)
 1.Come on above  page in Right corner click on upgrade two option will come
 2. click on pay as you go
 3..SelectDialog box will show your will account Click on Firebase pay  
