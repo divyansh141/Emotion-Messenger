@@ -44,9 +44,13 @@ After registering you are on the console page on the left side of the window
  1.Click in  Build-> Storage->Get started -> CLick on Done
 Open https://console.cloud.google.com/
 2.Click on Select project on top ->In Dialog box click on All => Select your project
-3.Click on navigation bar -> Scroll it>In  Database click on Datastore>Click on Switch to Navigate Mode > 4.Click on got it you will move to Firestore                                                                                                                   5.Close the window
+3.Click on navigation bar -> Scroll it>In  Database click on Datastore>Click on Switch to Navigate Mode 
+4.Click on got it you will move to Firestore                                                                                                              
+5.Close the window
+
+
 # Upgrade
-[ Firebase Blue](https://github.com/AIBrainAISchool/Emotion-Messenger/blob/main/Firebase%20set%20up/Firebase.png)
+![ Firebase Blue](https://github.com/AIBrainAISchool/Emotion-Messenger/blob/main/Firebase%20set%20up/Firebase.png)
 1.Come on above  page in Right corner click on upgrade two option will come
 2. click on pay as you go
 3..SelectDialog box will show your will account Click on Firebase pay  
