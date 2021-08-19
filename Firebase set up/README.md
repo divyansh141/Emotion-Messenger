@@ -120,13 +120,13 @@ in the resource folder down on the left go to the layout folder here you can see
 
 Files  can see that fragmentchat.xml is the screen you are looking for below here is the text box where i type messages and the send button the middle here are the conversation history with username at the top now if i find where the send button or the text box is being used inside the code i can find the code that i want to edit  go to the top right and click split you can see the xml beyond the design by clicking on the design element you can also locate the id of the element the one we want to look for is where the message text box and send button is being used the id for the send button is in  underscore sent this id is being used somewhere in the  code to send messages right click and click find usages a frame should pop up indicating all the usage of the send button there is a usage inside the xml and below here is the resource reference in the codes
 
-The first one just allocates the button
+1.The first one just allocates the button
 
-At the second reference double click and we are here this is at chatfragment.java
+2.At the second reference double click and we are here this is at chatfragment.java
 
-At the button is being used when the button is clicked message takes the value inside and message box let's see what m message box is then find usages and it looks like m message box 
+3.At the button is being used when the button is clicked message takes the value inside and message box let's see what m message box is then find usages and it looks like m message box 
 
-Actually the  underscore message underscore box if you double click now this design element is actually the message box we saw earlier let's head back so the message takes the value of whatever text inside the message box
+4. Actually the  underscore message underscore box if you double click now this design element is actually the message box we saw earlier let's head back so the message takes the value of whatever text inside the message box
 
 Then there is a if statement the exclamation mark inside here actually means the opposite of whatever is inside
 so that means if the message is not empty send message and then empty the message text box which is exactly what happens when we use messenger apps so this piece of code right here is what we need to work on to perform a sentiment analysis prediction on the  Message a tip here since we are going to come back to this piece of code  frequently you can also bookmark this by  going to navigate bookmarks toggle bookmarks with mnemonic if you do this you can set a shortcut key to this specific point of code
