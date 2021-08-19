@@ -126,7 +126,7 @@ Files  can see that fragmentchat.xml is the screen you are looking for below her
 
 3.At the button is being used when the button is clicked message takes the value inside and message box let's see what m message box is then find usages and it looks like m message box 
 
-4. Actually the  underscore message underscore box if you double click now this design element is actually the message box we saw earlier let's head back so the message takes the value of whatever text inside the message box
+4.In the underscore message underscore box if you double click now this design element is actually the message box we saw earlier let's head back so the message takes the value of whatever text inside the message box
 
 Then there is a if statement the exclamation mark inside here actually means the opposite of whatever is inside
 so that means if the message is not empty send message and then empty the message text box which is exactly what happens when we use messenger apps so this piece of code right here is what we need to work on to perform a sentiment analysis prediction on the  Message a tip here since we are going to come back to this piece of code  frequently you can also bookmark this by  going to navigate bookmarks toggle bookmarks with mnemonic if you do this you can set a shortcut key to this specific point of code
