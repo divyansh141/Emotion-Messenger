@@ -32,6 +32,7 @@ Download json file
  
 Authentication needed
 After registering you are on the console page on the left side of the window 
+![ Firebase Blue]https://github.com/AIBrainAISchool/Emotion-Messenger/blob/main/Firebase%20set%20up/Untitled%20design.png)
 1.Click on Build -> Authentication -> Click on Get started you will be able to see many such options for authentication (email,twitter etc) from which you want to authenticate
 2.Click Email/Password => Enable on =>save
 
