@@ -114,12 +114,13 @@ Search analyzing sentiment -(https://www.tensorflow.org/lite/examples/text_class
 will see how the classification result is displayed the app is quite well annotated too and this is always a good practice to annotate your code so you can share it with others so the annotation indicates that this is  the code for displaying the results each prediction result starts with inputs and the text itself which is input text change line and then output change line and there's a for loop here that seems to retrieve the prediction title and confidence rate title is 
 # Tensorflow >Andriod example 
 https://github.com/tensorflow/examples/tree/master/lite/examples/text_classification/android 
-# Click on code > Download Zip file >Extract the zip file > open lite folder > open expiremental folder  > Text classification > open android studio > open exiting project > Select the file and open > Run it > Your Emulator will run 
+## Click on code > Download Zip file >Extract the zip file > open lite folder > open expiremental folder  > Text classification > open android studio > open exiting project > Select the file and open > Run it > Your Emulator will run 
 
-And  positive and negative and the confidence rate and it finishes off with dashes and then right above the code  block that displays the results is the code that sends the text for prediction  time to see where we need to edit in the messenger app template file you will see where we need to fix in the messenger app template
-there are a lot of java files in this
-template to look through but we only want access to the actual chat feature of the app you want to have access to what the user is typing and generate a prediction out of that one way to look for the relevant piece of code is to look at the names of the java files however this may be difficult if the names of the files are not well Organized another approach is to look at the design file
-in the resource folder down on the left go to the layout folder here you can see all the design pages of  the app by sifting through these you can guess where the relevant codes are locate for example here in the activity account xml
+And  positive and negative and the confidence rate and it finishes off with dashes and then right above the code  block that displays the results is the code that sends the text for prediction  
+
+template to look through as we only want access to  actual  feature which the user is sending and generate a prediction  
+
+At the design file in the resource folder down on the left go to the layout folder here you can see all the design pages of  the app by sifting through these you can guess where the relevant codes are locate for example here in the activity account 
 
 
 Files  can see that fragmentchat.xml is the screen you are looking for below here is the text box where i type messages and the send button the middle here are the conversation history with username at the top now if i find where the send button or the text box is being used inside the code i can find the code that i want to edit  go to the top right and click split you can see the xml beyond the design by clicking on the design element you can also locate the id of the element the one we want to look for is where the message text box and send button is being used the id for the send button is in  underscore sent this id is being used somewhere in the  code to send messages right click and click find usages a frame should pop up indicating all the usage of the send button there is a usage inside the xml and below here is the resource reference in the codes
@@ -132,8 +133,45 @@ Files  can see that fragmentchat.xml is the screen you are looking for below her
 
 4.In the underscore message underscore box if you double click now this design element is actually the message box we saw earlier let's head back so the message takes the value of whatever text inside the message box
 
-Then there is a if statement the exclamation mark inside here actually means the opposite of whatever is inside
-so that means if the message is not empty send message and then empty the message text box which is exactly what happens when we use messenger apps so this piece of code right here is what we need to work on to perform a sentiment analysis prediction on the  Message a tip here since we are going to come back to this piece of code  frequently you can also bookmark this by  going to navigate bookmarks toggle bookmarks with mnemonic if you do this you can set a shortcut key to this specific point of code
+* Then there is a if statement the exclamation mark inside here actually means the opposite of whatever is inside so that means if the message is not empty send message and then empty the message text box which is exactly what happens when we use messenger apps so this piece of code right here is what we need to work on to perform a sentiment analysis prediction 
+
+Now after seeing this part we will check our template part
  
 
  
+ # In this we will edit the messenger app template 
+  
+ Here we  are again using  tensorflow lite demo as you remember the lib interpreter library it doing all classification we  need to import this to the messenger app project
+ 
+ 1.the messenger app project click file new import module
+Photo 
+
+2.Locate the lib interpreter that should be in the tensorflow example folder
+  
+ 3.Click ok and finish
+ 
+ *If you Get an error  it's because we still have to edit the gradle files to complete the import   editing the gradle files will connect            the messenger template in the tensorflow library*
+ 
+*Errors which can occur
+ * The first error message A plugin of the name under couch was not found let's hop back to tensorflow lite demo in the tensorflow project find the project level gradle file  under couch class path that we need copy and paste that into project level gradle file of the messenger template into the app level gradle file
+ 
+Move to tensorflow project and open  the app level gradle file the compile and the options copy everything  down to the flavor dimensions make sure to copy the correct block back to the messenger template paste it and make sure the brackets line up  Move  back to the tensorflow demo project download the dependencies of the messenger template
+ 
+Now click sync and build successful
+ 
+* Second error will appear in the future stages when you run the app compare the messenger template app level gradle file and the tensorflow libraries gradle file scroll down and you can find annotations dependency here result in an error
+ 
+The tensorflow classification sample provides hints on how to use the library open the mainactivity.java in the tensorflow demo project
+uses something called a handler  a handler allows communication between two different threads think of it like this threads execute processes however if all processes are handled in one main thread the process may get clogged up and result in a crash
+ 
+The prediction on another thread and create a more stable app the handler in this case 
+will bring prediction results on another thread to the main thread  this is a very simplified explanation of a complicated concept
+so let's set up the handler we  first have to create a handler  below the activity line you can see this on the tensorflow demo project
+private handler handler  we're going to do the same thing to find the handler you will see a message pop up hit alt
+and enter at the same time and select the first item on the list and the error should be resolved we also  need to bring in the classification client so define the classification client just as it did for the tensorflow project  we'll also create a string to store the
+ 
+classification result which displays the positive and negative and the pertaining prediction values 
+
+Grab the results and append it to the message text you can see there was already a send message line below and yes one more change we need to make is have the message sent in the show result method this has to do comment out the line below 3now let's see how it runs it is loaded just going to send the
+message to my other account it says it's positive the prediction result is also being sent
+
