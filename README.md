@@ -1,7 +1,7 @@
 # Emotion-Messenger
 
 ![ Firebase Blue](https://github.com/AIBrainAISchool/Emotion-Messenger/blob/main/Firebase%20set%20up/Screenshot%20(290).png)
-![ Firebase Blue](https://aischool.aibrain.com/pluginfile.php/2143/mod_lesson/page_contents/1504/gif.gif)
+
 
 # Goal 
 Create an mobile messenger app with AI feature to an existing app template
@@ -201,3 +201,4 @@ classification result which displays the positive and negative and the pertainin
 Grab the results and append it to the message text you can see there was already a send message line below and yes one more change we need to make is have the message sent in the show result method this has to do comment out the line below 3now let's see how it runs it is loaded just going to send the
 message to my other account it says it's positive the prediction result is also being sent
 
+![ Firebase Blue](https://github.com/AIBrainAISchool/Emotion-Messenger/blob/main/Firebase%20set%20up/gif.gif)
