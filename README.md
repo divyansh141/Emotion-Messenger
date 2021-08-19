@@ -1,4 +1,6 @@
 # Emotion-Messenger
+
+![ Firebase Blue](https://github.com/AIBrainAISchool/Emotion-Messenger/blob/main/Firebase%20set%20up/Screenshot%20(290).png)
 # Add Firebase to Emotion Messenger Project
 
 # Set up Firebase
