@@ -8,7 +8,7 @@ If you don't already have a project and just want to try out a Firebase product,
 # Step 1: Create a Firebase project and connect with your app
 Create a Firebase project 
 In the Firebase console, click Add project, then select or enter a Project name.
-
+![Az Community (New Logo) Blue]
 If you have an existing Google Cloud project, you can select the project from the dropdown menu to add Firebase resources to that project.
 Firebase automatically assigns a unique ID 
 Click Continue.
