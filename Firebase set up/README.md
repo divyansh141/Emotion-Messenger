@@ -90,6 +90,7 @@ Open https://console.cloud.google.com/
  
 # The final objective of this lab is to have the messenger app  make sentiment predictions on outgoing messages you've already seen a sentiment analysis  model with the twitter airline dataset  this time you will apply a model to the messenger app so it will generate relevant emoji  depending on the sentiment score of some  so first we will look for a sentiment  analysis model preferably  export for natural language models at the moment so we will just grab a pre-trained model   we can use what the search engine has to offer us sentiment analysis and remodel scroll down and find text classification sample from tensorflow and this demo offers a pre-trained model that predicts if a paragraph sentiment is positive or negative it is trained on shoping  data sets  
 
+![ Firebase Blue](https://github.com/AIBrainAISchool/Emotion-Messenger/blob/main/Firebase%20set%20up/Screenshot%20(287).png)
 see a 
 example cases let's check it for ourselves there is an android example  
 
@@ -114,6 +115,7 @@ And  positive and negative and the confidence rate and it finishes off with dash
 there are a lot of java files in this
 template to look through but we only want access to the actual chat feature of the app you want to have access to what the user is typing and generate a prediction out of that one way to look for the relevant piece of code is to look at the names of the java files however this may be difficult if the names of the files are not well Organized another approach is to look at the design file
 in the resource folder down on the left go to the layout folder here you can see all the design pages of  the app by sifting through these you can guess where the relevant codes are locate for example here in the activity account xml
+
 
 Files  can see that fragmentchat.xml is the screen you are looking for below here is the text box where i type messages and the send button the middle here are the conversation history with username at the top now if i find where the send button or the text box is being used inside the code i can find the code that i want to edit  go to the top right and click split you can see the xml beyond the design by clicking on the design element you can also locate the id of the element the one we want to look for is where the message text box and send button is being used the id for the send button is in  underscore sent this id is being used somewhere in the  code to send messages right click and click find usages a frame should pop up indicating all the usage of the send button there is a usage inside the xml and below here is the resource reference in the codes
 
