@@ -14,7 +14,7 @@ Firebase automatically assigns a unique ID
 Click Continue.
 Configure Google Analytics=>  Choose or create a Google Analytics account => Default account for firebase => Click Create project (or Add Firebase, if you're using an existing Google Cloud project).
 # Step 2: Register your app with Firebase
-
+![ Firebase Blue](https://github.com/AIBrainAISchool/Emotion-Messenger/blob/main/Firebase%20set%20up/Screenshot%20(284).png)
 # Register app
 In the center of the Firebase console's  click the android icon and launch setup workflow.
 Android package name in box.
