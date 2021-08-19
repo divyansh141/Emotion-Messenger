@@ -108,7 +108,8 @@ how about this  can see some issues here try a different word  testing will tell
 
 Search analyzing sentiment -(https://www.tensorflow.org/lite/examples/text_classification/overview)
 will see how the classification result is displayed the app is quite well annotated too and this is always a good practice to annotate your code so you can share it with others so the annotation indicates that this is  the code for displaying the results each prediction result starts with inputs and the text itself which is input text change line and then output change line and there's a for loop here that seems to retrieve the prediction title and confidence rate title is 
-# Tensorflow >Andriod example https://github.com/tensorflow/examples/tree/master/lite/examples/text_classification/android 
+# Tensorflow >Andriod example 
+https://github.com/tensorflow/examples/tree/master/lite/examples/text_classification/android 
 # Click on code > Download Zip file >Extract the zip file > open lite folder > open expiremental folder  > Text classification > open android studio > open exiting project > Select the file and open > Run it > Your Emulator will run 
 
 And  positive and negative and the confidence rate and it finishes off with dashes and then right above the code  block that displays the results is the code that sends the text for prediction  time to see where we need to edit in the messenger app template file you will see where we need to fix in the messenger app template
